@@ -77,6 +77,14 @@
   
   * เปิดใช้งาน QEMU Guest Agent และจะได้ผลลัพธ์ดังรูป
   
+  * คำสั่งในการเปิดใช้งาน Qemu Guest Agent
+  
+        sudo -i                                            //root
+        apt update && apt -y install qemu-guest-agent      //เพื่อ update และ install QEMU Guest Agent
+        systemctl enable qemu-guest-agent                  //เพื่อเปิดใช้งาน QEMU Guest Agent 
+        systemctl start qemu-guest-agent                   //เพื่อเริ่มการทำงานของ QEMU Guest Agent
+        systemctl status qemu-guest-agent                  //เช็คสถานะของ QEMU Guest Agent 
+  
   ![image](https://user-images.githubusercontent.com/117592447/208170315-8f9707bb-9047-47c4-be1e-2620a0aab7f7.png)
   
   ![image](https://user-images.githubusercontent.com/117592447/208170616-479cb0b3-19d4-4e7e-bae8-1165fcbd2f44.png)
