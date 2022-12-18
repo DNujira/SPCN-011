@@ -85,9 +85,9 @@
         systemctl start qemu-guest-agent                   //เพื่อเริ่มการทำงานของ QEMU Guest Agent
         systemctl status qemu-guest-agent                  //เช็คสถานะของ QEMU Guest Agent 
   
-  ![image](https://user-images.githubusercontent.com/117592447/208170315-8f9707bb-9047-47c4-be1e-2620a0aab7f7.png)
+  ![image](https://user-images.githubusercontent.com/117592447/208302573-a0736731-6729-4016-b2ec-9fc03f3bae1b.png)
   
-  ![image](https://user-images.githubusercontent.com/117592447/208170616-479cb0b3-19d4-4e7e-bae8-1165fcbd2f44.png)
+  ![image](https://user-images.githubusercontent.com/117592447/208302614-ccb0165c-3774-43c1-ae3f-f4249694a1c7.png)
   
 ## 3. create container template (select from CT list)
 
